@@ -45,22 +45,20 @@ function isPalindrome(word) {
 
   write a function that takes a string as an argument
   make a string length variable
+  make a variable for the first half of the string and set it to an empty string
+  make a variable for the second half of the string and set it to an empty string
+  make a variable for an empty string (newStr)
+  make a function that reverses the order of characters of the second half variable
+    for i--: newStr = newStr + reverse order of characters
+    if newStr is the same as the first half string return true; else return false;
   if (string length is even and the string is not empty):
-    make a variable for the first half of the string
-    make a variable for the second half of the string
-    iterate over characters in first half of string to find their value
-    iterate over characters in second half of string to find their value
-    compare the values and see if they are equal
-    
-    return true if they're equal and false if not
+    first half variable equals the first half of the string
+    second half variable equals the second half of the string
+    return reversing function
   if (string length is odd):
-    make a variable for the first half of the string excluding middle letter
-    make a variable for the second half of the string excluding middle letter
-    iterate over characters in first half of string to find their value
-    iterate over characters in second half of string to find their value
-    compare the values and see if they are equal
-    
-    return true if they're equal and false if not
+    first half variable equals the first half of the string excluding the middle letter
+    second half variable equals the second half of the string excluding the middle letter
+    return reversing function
     
   if (string length is zero):
     return true;
